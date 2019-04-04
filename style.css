@@ -1,0 +1,105 @@
+body,html{
+padding :0;
+margin:0;
+}
+
+#navigation{
+    margin : 10px 0;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color : #CCC;
+}
+
+#navigation>ul{
+    width : 801px ;
+    margin : 0 auto ;
+    overflow: hidden;
+}
+
+#navigation>ul>li{
+   list-style: none;
+   float: left;
+   border-left: 1px solid #CCC;
+   text-align:center;
+}
+
+#navigation>ul>li :last-child{
+    border-right : 1px solid #CCC;
+}
+
+#navigation>ul>li>a{
+    text-decoration: none;
+    display : block;
+    width : 90px;
+    color : #000;
+    font-size: 12px; 
+    text-align:center;
+}
+
+#navigation>ul>li>a:hover{
+    background-color: green;
+    color : WHITE;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+/*
+*{
+color : white;
+    font-weight: bold;
+    text-align:center;
+    font-size: 20px;
+}
+
+#header{
+background-color: red;
+height : 100px;
+}
+
+#navigation{
+    background-color: green;
+    height : 80px;
+    }
+
+#contents{
+        background-color: yellow;
+        height : 500px;
+        width : 80%;
+        float : left;
+    }
+
+#aside{
+        background-color: pink;
+        height : 500px;
+        width : 20%;
+        float : left;
+    }
+    
+    #footer{
+        background-color: green;
+        
+    }
+
+
+/*
+h1{
+color: blue;
+}
+
+*{
+    border : 1px 고정된 사이즈 solid pink;
+}
+
+h2#head{
+   font-family: serif;
+    color : blue;
+}
+
+div.red{
+color : red;
+}
+
+div.red.serif{
+    font-family: serif;
+    color : green;
+}*/
